@@ -46,6 +46,7 @@ module.exports = {
         siteUrl: `https://rocketdocs.netlify.com`,
       },
     },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-offline`,
   ],
 };
