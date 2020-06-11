@@ -35,6 +35,11 @@ https://github.com/Rocketseat/gatsby-themes/tree/master/%40rocketseat/gatsby-the
 
 
 
+3.
+Page Transitions
+http://joshdcuneo.com/gatsby-animate-page-transitions/
+"react-pose": "^4.0.1"  
+
 
 Notes:
 query MyQuery {
