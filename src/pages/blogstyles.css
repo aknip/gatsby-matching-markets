@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Work+Sans&display=swap);
 .bloghtml{
-    font-family:sans-serif;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     font-size:16px;
@@ -23,7 +22,7 @@
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
     color:rgba(0,0,0,.8);
-    font-family:Helvetica Neue,sans-serif;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
     font-weight:400;
     word-wrap:break-word;
     -webkit-font-kerning:normal;
@@ -36,10 +35,44 @@
 * {
     box-sizing:inherit
 }
-    
+
+.bloglogo1 {
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing:-1px;
+    line-height:1.1875;
+    padding:0;
+    margin:0 0 1.45rem;
+    text-rendering:optimizeLegibility;
+}    
+
+.bloglogo2 {
+    color:#d40b0b;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing:-1px;
+    line-height:1.1875;
+    padding:0;
+    margin:0 0 1.45rem;
+    text-rendering:optimizeLegibility;
+} 
+
+.bloginfo {
+    color:#737380;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing:-1px;
+    line-height:1.1875;
+    padding: 0 ;
+    margin: 0 0 1.45rem;
+    text-rendering:optimizeLegibility;
+} 
 
 .blogh1{
-    font-family:Work Sans,Helvetica Neue,Helvetica,sans-serif;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
     font-size: 2rem;
     font-weight: 500;
     letter-spacing:-1px;
@@ -49,9 +82,9 @@
     text-rendering:optimizeLegibility;
 }
 .blogh2{
-    font-family:Work Sans,Helvetica Neue,Helvetica,sans-serif;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
     font-size:1.7rem;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing:-.75px;
     line-height:1.2;
     padding:0;
@@ -59,7 +92,7 @@
     text-rendering:optimizeLegibility;
 }
 .blogh3{
-    font-family:Work Sans,Helvetica Neue,Helvetica,sans-serif;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
     font-size: 1.38316rem;
     line-height: 1.1875;
     color:#a0a0a0;
@@ -68,11 +101,21 @@
     margin:0 0 1.45rem;
 }
 
+.blogh3.blogdate{
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.1875;
+    color:#a0a0a0;
+    font-weight:400;
+    padding:0;
+    margin:0 0 1.45rem;
+}
+
 .bloglist-abstract {
-    font-family:Work Sans,Helvetica Neue,Helvetica,sans-serif;
-    font-size:1.2rem;
+    font-family:'hnt',Helvetica Neue,Helvetica,sans-serif;
+    font-size:1.1rem;
     letter-spacing: -0.5px;
-    line-height: 1.5;
+    line-height: 1.3;
     color:#464646;
     margin-bottom:.725rem
 }
@@ -254,8 +297,8 @@ a.bloglink:hover{
         transition:transform .5s ease-out
     }
     .bloglist-module--list li{
-        min-height:250px;
-        height:33.333vh;
+        min-height:200px;
+        height:25vh;
         flex-direction:row
     }
     .bloglist-module--list .bloglist-module--list__hero{
@@ -276,6 +319,6 @@ a.bloglink:hover{
         padding:3rem
     }
     .bloglist-module--list .blogh3{
-        margin-bottom:1.2rem
+        margin-bottom:0.8rem
     }
 }

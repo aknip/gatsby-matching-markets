@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 200;
+  src:url(./fonts/hnt/hnt-light.otf) format("opentype");
+}
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 400;
+  src:url(./fonts/hnt/hnt-regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 500;
+  src:url(./fonts/hnt/hnt-bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 700;
+  src:url(./fonts/hnt/hnt-black.otf) format("opentype");
+}  

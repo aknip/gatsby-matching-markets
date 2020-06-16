@@ -10,31 +10,6 @@ export default function GlobalStyle() {
     <Global
       styles={css`
         //@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');      
-		/* font */
-		@font-face {
-		  font-family: "hnt";
-		  font-style: normal;
-		  font-weight: 200;
-		  src:url(./../../static/fonts/hnt/hnt-light.otf) format("opentype");
-		}
-		@font-face {
-		  font-family: "hnt";
-		  font-style: normal;
-		  font-weight: 400;
-		  src:url(./../../static/fonts/hnt/hnt-regular.otf) format("opentype");
-		}
-		@font-face {
-		  font-family: "hnt";
-		  font-style: normal;
-		  font-weight: 500;
-		  src:url(./../../static/fonts/hnt/hnt-bold.otf) format("opentype");
-		}
-		@font-face {
-		  font-family: "hnt";
-		  font-style: normal;
-		  font-weight: 700;
-		  src:url(./../../static/fonts/hnt/hnt-black.otf) format("opentype");
-		}  
         *,
         *::after,
         *::before {
@@ -97,7 +72,7 @@ export default function GlobalStyle() {
         }
         a {
           color: #737380;
-          font-weight: bold;
+          /*font-weight: bold;*/
           &:hover {
             color: ${theme.colors.primary}!important;
             transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
